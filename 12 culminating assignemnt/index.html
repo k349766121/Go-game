@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Go</title>
+    <link href="script/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <canvas id="gameScreen"></canvas>
+    <br/>
+    <button id="blackOnlyButton">Black Only</button >
+    <button id="passButton">Pass</button>
+    <button id="estimateButton">Estimate</button>
+    <button id="undoButton" disabled>Undo</button>
+    <button id="confirmButton" hidden>Confirm</button>
+    <p id="paragraph"></p>
+    
+    <!---Picture comes from:https://www.moyublog.com/hdbg/116918.html--->
+    <image src='images/background.jpg' id='background' hidden='true'></image>
+    
+    <script src="script/queue.js"></script>
+    <script src="script/stone.js"></script>
+    <script src="script/estimating.js"></script>
+    <script src="script/controller.js"></script>
+    <script src="script/rule.js"></script>
+    <script src="script/board.js"></script>
+    <script src="script/background.js"></script>
+    <script src="script/game.js" ></script>
+    <script src="script/canvas.js" ></script>
+  </body>
+
+</html>
